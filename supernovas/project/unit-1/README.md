@@ -17,3 +17,9 @@ The app needs to have a filter function on the side of the page that allows the 
 The app will also display the activity along with a related image. <br/>
 **Post-MVP**:
 If the user selects a group of 3 or more partipants, have a countdown timer and a voting function to decide whether the group will do the activity. If the majority chooses to pass, it will generate a new activity.
+<br/><br/>
+| Random       | Description                                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------------ |
+| Activity     | Description of the queried activity                                                                    |
+| Type         | Type of activity (education, recreational, social, diy, charity, cooking, relaxation, music, busywork) |
+| Participants | The number of people that this activity could involve                                                  |
