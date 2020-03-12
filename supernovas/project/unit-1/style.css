@@ -1,0 +1,111 @@
+img {
+  width: 80px;
+}
+body {
+  background: url(https://img.freepik.com/free-photo/background-crumpled-paper-sheet_1194-7545.jpg?size=626&ext=jpg);
+  background-size: cover;
+  padding: 70px 0;
+}
+.phone {
+  margin: 0 auto;
+  background-color: black;
+  background: linear-gradient(rgb(56, 55, 55), black);
+  width: 400px;
+  height: 750px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.screen {
+  background-color: white;
+  width: 375px;
+  height: 80%;
+  position: absolute;
+  z-index: 1;
+}
+#home {
+  background-color: grey;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  top: 92%;
+}
+#home:hover {
+  background: radial-gradient(grey, lightgray);
+  cursor: pointer;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  z-index: 2;
+  text-align: center;
+  font-size: 42px;
+  margin: 0px;
+  padding-left: 90px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.message {
+  background-color: #1183fe;
+  width: 250px;
+  height: 70px;
+  border-radius: 20px;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.bubble1 {
+  background-color: lightgray;
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.graytext {
+  color: black;
+}
+.reply {
+  background-color: lightgray;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.bubble2 {
+  background-color: #1183fe;
+  width: 325px;
+  height: 200px;
+  border-radius: 20px;
+  z-index: 1;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.emoji {
+  height: 25px;
+  width: 25px;
+}
+.giphy {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.wifi {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
