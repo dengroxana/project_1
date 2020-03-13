@@ -112,3 +112,23 @@ p {
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 375px) {
+  body {
+    background: none;
+  }
+
+  #home {
+    background-color: white;
+    width: 200px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  #home:hover {
+    background: none;
+  }
+  .phone {
+    background: none;
+  }
+}
