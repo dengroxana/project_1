@@ -116,6 +116,7 @@ p {
 @media (max-width: 375px) {
   body {
     background: none;
+    padding: 0px;
   }
 
   #home {
