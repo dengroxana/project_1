@@ -52,8 +52,6 @@ border-radius: 5px;
   z-index: 1;
   position: absolute;
   top: 92%;
-}
-#home:hover {
   animation-duration: 2s;
   animation-name: expand;
   animation-iteration-count: infinite;
