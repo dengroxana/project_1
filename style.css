@@ -8,6 +8,7 @@ body {
   height: 100%;
 }
 .phone {
+  
   margin: 0 auto;
   background-color: black;
   background: linear-gradient(rgb(56, 55, 55), black);
@@ -18,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-bottom: 300px;
 }
 .camera, .speaker {
   background-color: black;
@@ -145,6 +147,7 @@ p {
 }
 
 footer {
+  
   position: fixed;
   left: 0;
   bottom: 0;
@@ -164,16 +167,18 @@ footer {
   }
 
   #home {
-    background-color: white;
-    width: 200px;
+    
+    background-color: lightgray;
+    width: 150px;
     height: 20px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 5px;
   }
-  #home:hover {
-    background: none;
-  }
+
   .phone {
     background: none;
+  }
+  .camera, .speaker {
+    display: none;
   }
 }
