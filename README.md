@@ -3,11 +3,7 @@ WYD (Working Title) <br/>
 **Description**:
 This app will randomly generate activities for you to fight boredom. There will be filter functions that will allow the user to narrow down the type of activities along with the number of participants. After the user has narrowed down the search, a random activity will be presented on the page. <br/>
 **Wireframes**:
-<<<<<<< HEAD
-![Wireframe](wireframe@2x.png) <br/>
-=======
 ![Wireframe](new-wireframe@2x.png) <br/>
->>>>>>> 5f8c0cdc553d59ab762653e4ab1dff3045cd8f24
 **API**:
 [Bored API](https://www.boredapi.com/)
 Find random activities to fight boredom. <br/>
